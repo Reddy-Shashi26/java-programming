@@ -1,0 +1,151 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>JAVA TRAINING >>>>>>>>>>>>>>>>>>>>>>>>>.............
+https://www.oracle.com/in/java/technologies/downloads/
+STEPS:
+JAVA JDK IN GOOGLE CHROME 
+SELECT THE OPERATIG SYSTEM AND DOWNLOAD X64 FILE 
+AFTER INSTALL THE X64 FILE 
+OPEN C DRIVE 
+OPEN PROGRAM FILES 
+THEN GO TO JAVA 
+THEN JDK 21 OR 22
+SELECT BIN 
+COPY THE ADDRESS USING ADDRESS BAR 
+THEN GO TO ENVIRONMENT CHANGES:>>>>
+ENVIRONMENT VARIABLES FOR SYSTEM 
+THEN GO TO PATH 
+PASTE THE ADDRESS 
+OPEN THE COMMAND PROMT
+TYPE JAVA 
+IF ANY ERROR FOUND IN COMMAND PROMT  REPEAT THE SAME PROCESS 
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.....
+LOGICAL OPERATIONS :::
+33 & 17===1(DECIMAL)          /// AND
+44 | 16===60                  /// 0R
+33 ^ 14===47 (DECIMAL)        /// EXOR
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.......
+TERNARY OPERATOR ::::
+(CONDITION)? TRUE PART:FALSE PART 
+(a>b)?(a>c)`?a:c:(b>c)?b : c
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INCREMENT/DEC
+a=15
+PRINT(a++)          	/// FST IT WILL PRINT 15 THEN INCREMENT WILL DONE 16
+PRINT(a--)		/// 16                                    ANSWER 15
+PRINT(++a)		///15                                     ANS    16
+PRINT(--a)		///15                                     ANS    15
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+BASIC DATA TYPES IN JAVA:::
+1)BYTE	/// 1 BYTE     (-128 TO 127)
+2)SHORT	/// 2 BYTES    (-16384 TO 16383)	
+3)INT	///4 BYTES     
+4)LONG	/// 8 BYTES 
+5)BOOLEAN /// 1 BIT 
+6)CHARCTER  /// 2 BYTES 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>....
+FOR TAKING INPUT FROM USER 
+import java.util.Scanner;
+in void function
+	Scanner sc=new Scanner(System.in);
+
+
+byte    >>sc.nextByte()
+short   >>sc.nextShort()
+int	>>sc.nextInt()
+long	>>sc.nextLong()
+float	>>sc.nextFloat()
+double	>>sc.nextDouble()
+Boolean	>>sc.nextBoolean()
+char	>>sc.next().charAt(0)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+for loops
+	it is used when we know starting and ending pointing 
+
+syntax:
+	for(int i=0;i<n;i++/i--){
+	}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+while loop
+	it is used when starting poijt is known with condition but dont know the end point 
+
+syntax: 
+	int i =1;
+        while(i<=a){
+            //statements
+            i++/i--;
+        }
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+do while loop 
+	it is used for one time execution 
+
+syntax:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+Problem-1
+Consider Joshua where he has two missions, M and N. The missions. M is a big mission. Makes juice for hundred customers in one go while mission. N can make juice for four customers at a time. M consumes ex units of power, while N consumes Y units of power. Yuvraj is to find and return an integer representing the minimum number of units of power of Tom Mission. Will consume 
+i)x=5,y=1,p=100   ans=5
+ii)x=100,y=1,p=6  ans=2
+ii)x=10,y=4,p=108 ans=18
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+5th sem java training at Pharamacy Block
+
+Time complexity
+ for every  for loop : time complexity is 0(n)>>big (n)
+ fro every two for loopsa((or nested froloop )):: the time complexity is 0(n^2)>>big(n^2)
+ if nested loops have 4 fro loop have 4 for loops :: time complexity is (0(n^4))>>big(n^4)
+ for sorting  :: the time complexity is 0(nlogn)
+ recursion :: the time complexity is 0(2n)
+ binary search :: the time complexity is ::log n
+ it does not depens on input value
+
+ 1)vruteforce 2)better 3)optimal solution
+
+
+ java Array 
+ 1)why array indexing start with 0?
+  ans)
+       address= base address+offset*size of elements
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+SORTING METHODS
+-->Linear Search of Arrey
+	searching for the element in a array 
+	by checking each element in the array
+--> Binary Search (Divide& Conqure)
+	the array must be sorted 
+	binary search cannot perform for the unsorted Array
+	arr =[2,4,5,7,9,11]
+	m(mid)=(Start_index + End_index)/2
+	3 conditions
+		if(arr[mid]==key) sop ("Element present");
+		if(arr[mid]>key) End_index=mid-1;   [2,4]
+		if(arr[mid]<key) Start_index=mid-1;   [7,9,11]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

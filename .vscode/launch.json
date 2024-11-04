@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "array_even",
+            "request": "launch",
+            "mainClass": "array_even",
+            "projectName": "java_8ac892ce"
+        },
+        {
+            "type": "java",
+            "name": "array_2st_half_reverse_permt",
+            "request": "launch",
+            "mainClass": "array_2st_half_reverse_permt",
+            "projectName": "java_8ac892ce"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "java_72e8cc1b"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "shashi",
+            "request": "launch",
+            "mainClass": "shashi",
+            "projectName": "java_72e8cc1b"
+        }
+    ]
+}
